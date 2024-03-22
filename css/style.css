@@ -79,6 +79,7 @@ header .top .icons ul li img {
 	color: #000;
 }
 #gnb li ul {
+	display: none;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -142,7 +143,6 @@ header .top .icons ul li img {
 	transition: background-color 0.3s;
 }
 .swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-	height: 3px;
     opacity: 1;
 }
 .swiper-container {
